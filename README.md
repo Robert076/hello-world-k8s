@@ -20,6 +20,8 @@ Now, either do
 kubectl port-forward service/hello-world-service 8080:8080
 ```
 
+Visit localhost:8080/.
+
 Or follow the optional steps (a longer workaround)
 
 Get the name for the service
@@ -34,4 +36,4 @@ Get the URL for the service
 minikube service <the_name_from_previous_step> --url
 ```
 
-5. Visit localhost:8080/.
+Visit localhost:8080/.
