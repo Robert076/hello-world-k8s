@@ -26,3 +26,5 @@ kubectl get svc
 ```bash
 minikube service <the_name_from_previous_step> --url
 ```
+
+5. Visit localhost:8080/.
