@@ -15,6 +15,13 @@ git clone https://github.com/Robert076/hello-world-k8s
 kubectl apply -f kubernetes/
 ```
 
+Now, either do 
+```bash
+kubectl port-forward service/hello-world-service 8080:8080
+```
+
+Or follow the optional steps (a longer workaround)
+
 3) Get the name for the service
 
 ```bash
